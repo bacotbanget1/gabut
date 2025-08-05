@@ -1,0 +1,63 @@
+.tengah {
+    text-align: center;
+    color: blue;
+    font-size: 250%;
+    margin-top: 50vh; /* untuk membuat teks berada di tengah vertikal */
+}
+
+.tombol {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px; /* untuk membuat tombol berada di bawah teks */
+}
+
+.tombol:hover {
+    background-color: #3e8e41;
+}
+.foto {
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%; /* atur ukuran foto */
+    border-radius: 10px; /* atur radius border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* atur bayangan */
+}
+.tombol {
+    background-color: #008000; /* Warna hijau */
+    color: #fff; /* Warna teks putih */
+    padding: 20px 40px; /* Ukuran tombol */
+    border: none; /* Hilangkan border */
+    border-radius: 10px; /* Buat sudut tombol melengkung */
+    cursor: pointer; /* Ubah kursor menjadi pointer */
+}
+
+.tombol:hover {
+    background-color: #006400; /* Warna hijau lebih gelap saat hover */
+}
+.textbawah {
+  position: absolute;
+  top: 200%;
+  left: 32%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: blue
+}
+.tombol {
+    background-color: #008000; /* Warna hijau */
+    color: #fff; /* Warna teks putih */
+    padding: 20px 40px; /* Ukuran tombol */
+    border: none; /* Hilangkan border */
+    border-radius: 10px; /* Buat sudut tombol melengkung */
+    cursor: pointer; /* Ubah kursor menjadi pointer */
+}
+
+.tombol:hover {
+    background-color: #006400; /* Warna hijau lebih gelap saat hover */
+}
