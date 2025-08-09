@@ -1,5 +1,5 @@
 document.getElementById("play").addEventListener("click", function() {
-    <audio id="lagu" src="lagu/lagu.mp3"></audio>
+    <audio id="lagu" src="lagu.mp3"></audio>
 <button id="play">Play</button>
 ("lagu");
     if (lagu.paused) {
